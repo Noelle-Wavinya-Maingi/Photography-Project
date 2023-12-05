@@ -22,7 +22,6 @@ body
     display: fixed;
     justify-content: space-between;
     width: 100%;
-    /*transition: all .50s ease-in-out;*/
     background-color: rgb(195, 195, 215);
 }
 
