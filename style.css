@@ -49,13 +49,13 @@ body
 /*css for contact-info*/
 
 .contacts-info {
-    background-image: url('img\pexels-min-an-962312.jpg');
+    background-image: url('img/pexels-min-an-962312.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border: transparent;
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-wrap: wrap; 
     justify-content: space-between;
     align-items: top center;
     padding: 15% 10%;
@@ -65,14 +65,14 @@ body
     width: 100%; 
     max-width: 40%; 
     margin-top: 10%;
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: rgba(192, 192, 192, 0.7);
     height: fit-content;
 }
 
 .contacts-info-2 {
     width: 100%; 
     max-width: 45%; 
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 
@@ -82,7 +82,7 @@ body
     text-align: center;
     padding: 5% 0;
     margin: 1% 0;
-    color: white;
+    color: black;
 }
 input[type=text]
 {
@@ -114,17 +114,17 @@ textarea
 input[type=submit]
 {
     width: 30%;
-    color: #ed7d31;
+    color: black;
     font-weight: 700;
     margin: 2% 3%;
     padding: 3% 0;
-    border: solid #ed7d31;
+    border: solid rgb(195, 195, 215)1;
     border-radius: 5px;
    
 }
 input[type=submit]:hover
 {
-    background: #ed7d31;
+    background: rgb(195, 195, 215);
     color: #ededed;
     cursor: pointer;
 }
@@ -146,10 +146,13 @@ input[type=submit]:hover
 
 .contacts-info-1-more-text {
     margin-left: 10px; 
+    color: black;
 }
 
-.contacts-info-1-more-text p {
+.contacts-info-1-more-text a {
     margin: 0;
+    color: black; 
+    text-decoration: none; 
 }
 
 @media screen and (max-width: 600px)
